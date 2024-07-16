@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className='navbar w-full px-6 md:px-24 py-3 md:py-5 flex fixed left-0 top-0 z-30'>
       <div className='nav-container w-full flex justify-between items-center'>
         <div className='logo font-heading text-[30px]'>
-          Digiskuy
+          YourAds
         </div>
         <div className='hamburger' onClick={handleClick}>
           <i className={click ? 'fa-regular fa-circle-xmark text-[30px]' : 'fa-solid fa-bars text-[30px]'}></i>

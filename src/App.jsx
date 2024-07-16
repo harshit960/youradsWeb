@@ -7,22 +7,23 @@ import OurServices from './sections/OurServices';
 import OurStack from './sections/OurStack';
 import OurTeam from './sections/OurTeam';
 import OurWorks from './sections/OurWorks';
-
+import LocomotiveScroll from 'locomotive-scroll';
 function App() {
 
+  const scroll = new LocomotiveScroll()
   return (
 
-      <div className='overflow-x-hidden'>
-        <Navbar />
-        <Hero />
-        <AboutUs />
-        <OurStack />
-        <OurServices />
-        <OurWorks />
-        <OurTeam />
-        <HaveProject />
-        <Footer />
-      </div>
+    <div  className='overflow-x-hidden'>
+      <Navbar />
+      <Hero />
+      <AboutUs />
+      <OurStack />
+      <OurServices />
+      <OurWorks />
+      <OurTeam />
+      <HaveProject />
+      <Footer />
+    </div>
   )
 }
 
